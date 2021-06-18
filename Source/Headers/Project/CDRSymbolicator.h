@@ -6,7 +6,7 @@
 #define CDR_SYMBOLICATION_AVAILABLE 1
 #endif
 
-NSUInteger CDRCallerStackAddress();
+NSUInteger CDRCallerStackAddress(void);
 
 extern NSString *kCDRSymbolicatorErrorDomain;
 extern NSString *kCDRSymbolicatorErrorMessageKey;

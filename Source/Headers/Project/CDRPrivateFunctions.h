@@ -7,14 +7,14 @@ extern "C" {
     void CDRMarkXcodeFocusedExamplesInSpecs(NSArray *specs, NSArray *arguments);
     void CDRMarkFocusedExamplesInSpecs(NSArray *specs);
     NSArray *CDRSpecsFromSpecClasses(NSArray *specClasses);
-    void CDRDefineSharedExampleGroups();
-    void CDRDefineGlobalBeforeAndAfterEachBlocks();
-    unsigned int CDRGetRandomSeed();
-    NSArray *CDRSpecClassesToRun();
+void CDRDefineSharedExampleGroups(void);
+void CDRDefineGlobalBeforeAndAfterEachBlocks(void);
+unsigned int CDRGetRandomSeed(void);
+NSArray *CDRSpecClassesToRun(void);
     NSArray *CDRRootGroupsFromSpecs(NSArray *specs);
     NSArray *CDRPermuteSpecClassesWithSeed(NSArray *unsortedSpecClasses, unsigned int seed);
-    id CDRCreateXCTestSuite();
-    NSBundle *CDRBundleContainingSpecs();
+id CDRCreateXCTestSuite(void);
+NSBundle *CDRBundleContainingSpecs(void);
 #ifdef __cplusplus
 }
 #endif

@@ -138,7 +138,7 @@ i;})
         return CONVERT_TYPE(id) ?: [CDRNil nilObject];
     } else if (IS_TYPE(Class)) {
         return CONVERT_TYPE(Class);
-    } else if (IS_TYPE(void(^)())) {
+    } else if (IS_TYPE(void(^)(void))) {
         return (id)*((void **)argBuffer) ?: [CDRNil nilObject];
     } else if (IS_TYPE(char *)) {
         BOOL isNotNull = *(char **)argBuffer != NULL;

@@ -7,5 +7,5 @@ typedef NS_ENUM(NSInteger, CedarRunState) {
     CedarRunStateFinished        = 3
 };
 
-OBJC_EXPORT CedarRunState CDRCurrentState();
+OBJC_EXPORT CedarRunState CDRCurrentState(void);
 OBJC_EXPORT void CDRSetCurrentRunState(CedarRunState);

@@ -31,7 +31,7 @@ void CDREnableSpecValidation() {
 
 #pragma mark - static vars
 
-static void(^placeholderPendingTestBlock)() = ^{
+static void(^placeholderPendingTestBlock)(void) = ^{
     BOOL originalState = CDR_validateSpecs;
     CDR_validateSpecs = NO;
 
