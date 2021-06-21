@@ -68,7 +68,7 @@ Class CDRFirstOfClasses(BOOL (^classSelectionPredicate)(Class class)) {
     return firstClass;
 }
 
-NSString *CDRVersionString() {
+NSString *CDRVersionString(void) {
     NSString *versionDetails = nil;
 
 #if COCOAPODS
@@ -87,14 +87,14 @@ BOOL (^CDRClassIsSpecPredicate)(Class class) = ^(Class class) {
     return CDRClassIsOfType(class, "CDRSpec");
 };
 
-NSBundle *CDRBundleContainingSpecs() {
+NSBundle *CDRBundleContainingSpecs(void) {
     Class specClass = CDRFirstOfClasses(CDRClassIsSpecPredicate);
     return [NSBundle bundleForClass:specClass ?: [CDRSpec class]];
 }
 
 #pragma mark - Globals
 
-void CDRDefineSharedExampleGroups() {
+void CDRDefineSharedExampleGroups(void) {
     NSArray *sharedExampleGroupPoolClasses = CDRSelectClasses(^(Class class) {
         return CDRClassIsOfType(class, "CDRSharedExampleGroupPool");
     });
@@ -119,7 +119,7 @@ NSArray *CDRHooksClassesWithSelector(SEL selector) {
     });
 }
 
-void CDRDefineGlobalBeforeAndAfterEachBlocks() {
+void CDRDefineGlobalBeforeAndAfterEachBlocks(void) {
     [CDRSpecHelper specHelper].globalBeforeEachClasses = CDRHooksClassesWithSelector(@selector(beforeEach));
     [CDRSpecHelper specHelper].globalAfterEachClasses = CDRHooksClassesWithSelector(@selector(afterEach));
 }
@@ -187,7 +187,7 @@ void CDRSuppressStandardPipesWhileLoadingClasses() {
     }
 }
 
-NSArray *CDRSpecClassesToRun() {
+NSArray *CDRSpecClassesToRun(void) {
     char *envSpecClassNames = getenv("CEDAR_SPEC_CLASSES");
     if (envSpecClassNames) {
         NSArray *specClassNames =
@@ -320,7 +320,7 @@ NSArray *CDRPermuteSpecClassesWithSeed(NSArray *unsortedSpecClasses, unsigned in
     return CDRShuffleItemsInArrayWithSeed(sortedSpecClasses, seed);
 }
 
-unsigned int CDRGetRandomSeed() {
+unsigned int CDRGetRandomSeed(void) {
     unsigned int seed = time(NULL) % 100000 + 2;
     if (getenv("CEDAR_RANDOM_SEED")) {
         seed = [[NSString stringWithUTF8String:getenv("CEDAR_RANDOM_SEED")] intValue];

@@ -34,7 +34,7 @@ void CDRAddCedarTestObserver(id observationCenter) {
     });
 }
 
-void CDRSwizzleTestSuiteAllTestsMethod() {
+void CDRSwizzleTestSuiteAllTestsMethod(void) {
     Class testSuiteClass = NSClassFromString(@"XCTestSuite") ?: NSClassFromString(@"SenTestSuite");
     if (!testSuiteClass) {
         [[NSException exceptionWithName:@"CedarNoTestFrameworkAvailable" reason:@"You must link against either the XCTest or SenTestingKit frameworks." userInfo:nil] raise];
@@ -52,7 +52,7 @@ void CDRSwizzleTestSuiteAllTestsMethod() {
     class_replaceMethod(testSuiteMetaClass, @selector(allTests), newImp, method_getTypeEncoding(m));
 }
 
-void CDRSwizzleTestObservationCenter() {
+void CDRSwizzleTestObservationCenter(void) {
     Class observationCenterClass = NSClassFromString(@"XCTestObservationCenter");
     if (observationCenterClass && [observationCenterClass respondsToSelector:@selector(sharedTestObservationCenter)]) {
         // Swizzle -addTestObserver:
