@@ -1,5 +1,5 @@
-#import "CDRSpecFailure.h"
-#import "CDRSymbolicator.h"
+#import <Cedar/CDRSpecFailure.h>
+#import <Cedar/CDRSymbolicator.h>
 #import <regex.h>
 
 @interface CDRSpecFailure ()

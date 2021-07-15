@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "CDRDefaultReporter.h"
+#import <Cedar/CDRDefaultReporter.h>
 
 @interface CDRTeamCityReporter : CDRDefaultReporter {
 

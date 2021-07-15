@@ -1,4 +1,4 @@
-#import "CDRDefaultReporter.h"
+#import <Cedar/CDRDefaultReporter.h>
 
 @interface CDRBufferedDefaultReporter : CDRDefaultReporter
 @property (retain, nonatomic) NSMutableString *buffer;

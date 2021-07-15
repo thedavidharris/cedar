@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "CDRBufferedDefaultReporter.h"
+#import <Cedar/CDRBufferedDefaultReporter.h>
 
 @interface CDRColorizedReporter : CDRBufferedDefaultReporter
 

@@ -1,6 +1,6 @@
-#import "CDRXCTestObserver.h"
-#import "CDRFunctions.h"
-#import "CDRPrivateFunctions.h"
+#import <Cedar/CDRXCTestObserver.h>
+#import <Cedar/CDRFunctions.h>
+#import <Cedar/CDRPrivateFunctions.h>
 
 @interface CDRXCTestObserver ()
 @property (assign) BOOL observedTestSuiteStart;

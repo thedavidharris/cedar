@@ -1,4 +1,4 @@
-#import "CDRSymbolicator.h"
+#import <Cedar/CDRSymbolicator.h>
 #import <objc/runtime.h>
 #import <mach-o/dyld.h>
 #import <libunwind.h>

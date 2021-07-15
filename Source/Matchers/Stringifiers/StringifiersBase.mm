@@ -1,4 +1,4 @@
-#import "StringifiersBase.h"
+#import <Cedar/StringifiersBase.h>
 #import <objc/runtime.h>
 
 namespace Cedar { namespace Matchers { namespace Stringifiers {

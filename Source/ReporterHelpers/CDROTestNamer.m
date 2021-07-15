@@ -1,6 +1,6 @@
-#import "CDROTestNamer.h"
-#import "CDRExample.h"
-#import "CDRExampleBase.h"
+#import <Cedar/CDROTestNamer.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRExampleBase.h>
 
 @interface CDROTestNamer ()
 @property (nonatomic, retain) NSMutableCharacterSet *allowedCharacterSet;

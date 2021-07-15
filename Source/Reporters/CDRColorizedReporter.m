@@ -1,4 +1,4 @@
-#import "CDRColorizedReporter.h"
+#import <Cedar/CDRColorizedReporter.h>
 
 static const char * const ANSI_NORMAL = "\033[0m";
 static const char * const ANSI_RED = "\033[0;40;31m";

@@ -1,4 +1,4 @@
-#import "CDRBufferedDefaultReporter.h"
+#import <Cedar/CDRBufferedDefaultReporter.h>
 
 @implementation CDRBufferedDefaultReporter
 

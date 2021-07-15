@@ -1,5 +1,5 @@
-#import "HaveReceived.h"
-#import "NSInvocation+Cedar.h"
+#import <Cedar/HaveReceived.h>
+#import <Cedar/NSInvocation+Cedar.h>
 
 namespace Cedar { namespace Doubles {
 

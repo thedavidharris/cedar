@@ -3,7 +3,7 @@
 #ifdef __cplusplus
 
 #import <sstream>
-#import "CedarStringifiers.h"
+#import <Cedar/CedarStringifiers.h>
 
 namespace Cedar { namespace Matchers {
     struct BaseMessageBuilder {

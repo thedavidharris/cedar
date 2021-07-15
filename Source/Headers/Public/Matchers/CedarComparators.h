@@ -1,11 +1,11 @@
-#import "ComparatorsBase.h"
-#import "ComparatorsContainer.h"
+#import <Cedar/ComparatorsBase.h>
+#import <Cedar/ComparatorsContainer.h>
 
 #if TARGET_OS_IPHONE && !TARGET_OS_WATCH
-#import "UIKitComparatorsContainer.h"
+#import <Cedar/UIKitComparatorsContainer.h>
 #endif
 
-#import "ComparatorsContainerConvenience.h"
+#import <Cedar/ComparatorsContainerConvenience.h>
 
 #ifdef CEDAR_CUSTOM_COMPARATORS
 #import CEDAR_CUSTOM_COMPARATORS

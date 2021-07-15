@@ -1,15 +1,15 @@
 #import <objc/runtime.h>
 
-#import "CDRReportDispatcher.h"
-#import "CDRSpec.h"
-#import "CDRExampleGroup.h"
-#import "CDRExample.h"
-#import "CDROTestNamer.h"
-#import "CDRRuntimeUtilities.h"
-#import "CDRFunctions.h"
-#import "CDRSymbolicator.h"
-#import "CDRXCTestCase.h"
-#import "NSInvocation+CDRXExample.h"
+#import <Cedar/CDRReportDispatcher.h>
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDROTestNamer.h>
+#import <Cedar/CDRRuntimeUtilities.h>
+#import <Cedar/CDRFunctions.h>
+#import <Cedar/CDRSymbolicator.h>
+#import <Cedar/CDRXCTestCase.h>
+#import <Cedar/NSInvocation+CDRXExample.h>
 
 
 const char *CDRXSpecKey;

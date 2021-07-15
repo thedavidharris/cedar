@@ -1,5 +1,5 @@
-#import "RejectedMethod.h"
-#import "AnyArgument.h"
+#import <Cedar/RejectedMethod.h>
+#import <Cedar/AnyArgument.h>
 
 namespace Cedar { namespace Doubles {
 

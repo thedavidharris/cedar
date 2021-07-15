@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "Base.h"
-#import "ComparatorsBase.h"
+#import <Cedar/Base.h>
+#import <Cedar/ComparatorsBase.h>
 
 #ifdef __cplusplus
 

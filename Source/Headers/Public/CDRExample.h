@@ -1,6 +1,6 @@
-#import "CDRExampleBase.h"
-#import "CDRNullabilityCompat.h"
-#import "CDRSpecFailure.h"
+#import <Cedar/CDRExampleBase.h>
+#import <Cedar/CDRNullabilityCompat.h>
+#import <Cedar/CDRSpecFailure.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

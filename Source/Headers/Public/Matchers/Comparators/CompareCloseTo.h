@@ -1,4 +1,4 @@
-#import "CDRSpecFailure.h"
+#import <Cedar/CDRSpecFailure.h>
 
 #ifdef __cplusplus
 

@@ -1,5 +1,5 @@
-#import "CDRReportDispatcher.h"
-#import "CDRExampleGroup.h"
+#import <Cedar/CDRReportDispatcher.h>
+#import <Cedar/CDRExampleGroup.h>
 
 @interface CDRReportDispatcher ()
 @property (strong, nonatomic) CDRSpec *currentSpec;

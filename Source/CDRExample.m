@@ -1,6 +1,6 @@
-#import "CDRExample.h"
-#import "CDRSpecHelper.h"
-#import "CDRReportDispatcher.h"
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRReportDispatcher.h>
 
 const CDRSpecBlock PENDING = nil;
 

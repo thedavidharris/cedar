@@ -1,17 +1,17 @@
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
-#import "CDRSpec.h"
-#import "CDRHooks.h"
-#import "CDRExampleGroup.h"
-#import "CDRExampleReporter.h"
-#import "CDRDefaultReporter.h"
-#import "CDRSpecHelper.h"
-#import "CDRFunctions.h"
-#import "CDRReportDispatcher.h"
-#import "CDROTestNamer.h"
-#import "CDRVersion.h"
-#import "CDRSpecRun.h"
-#import "CDRStateTracker.h"
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRHooks.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRExampleReporter.h>
+#import <Cedar/CDRDefaultReporter.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRFunctions.h>
+#import <Cedar/CDRReportDispatcher.h>
+#import <Cedar/CDROTestNamer.h>
+#import <Cedar/CDRVersion.h>
+#import <Cedar/CDRSpecRun.h>
+#import <Cedar/CDRStateTracker.h>
 
 static NSString * const CDRBuildVersionKey = @"CDRBuildVersionSHA";
 

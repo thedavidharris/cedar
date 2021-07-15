@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
-#import "CDRNullabilityCompat.h"
-#import "CedarDouble.h"
-#import "CDRFake.h"
+#import <Cedar/CDRNullabilityCompat.h>
+#import <Cedar/CedarDouble.h>
+#import <Cedar/CDRFake.h>
 
 #ifdef __cplusplus
 

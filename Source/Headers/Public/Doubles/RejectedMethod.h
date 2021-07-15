@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
-#import "InvocationMatcher.h"
-#import "Argument.h"
-#import "ReturnValue.h"
+#import <Cedar/InvocationMatcher.h>
+#import <Cedar/Argument.h>
+#import <Cedar/ReturnValue.h>
 
 #ifdef __cplusplus
 

@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "CDRFunctions.h"
+#import <Cedar/CDRFunctions.h>
 
 @interface CDRTestBundleRunner : NSObject
 @end

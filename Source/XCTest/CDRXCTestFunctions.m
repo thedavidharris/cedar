@@ -1,15 +1,15 @@
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
 
-#import "CDRFunctions.h"
-#import "CDRPrivateFunctions.h"
-#import "CDRXCTestSuite.h"
-#import "CDRRuntimeUtilities.h"
-#import "CDRXCTestObserver.h"
-#import "CDRReportDispatcher.h"
-#import "CDRSpec.h"
-#import "CDRSpecRun.h"
-#import "CDRStateTracker.h"
+#import <Cedar/CDRFunctions.h>
+#import <Cedar/CDRPrivateFunctions.h>
+#import <Cedar/CDRXCTestSuite.h>
+#import <Cedar/CDRRuntimeUtilities.h>
+#import <Cedar/CDRXCTestObserver.h>
+#import <Cedar/CDRReportDispatcher.h>
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRSpecRun.h>
+#import <Cedar/CDRStateTracker.h>
 
 id CDRCreateXCTestSuite() {
     Class testSuiteClass = NSClassFromString(@"XCTestSuite") ?: NSClassFromString(@"SenTestSuite");

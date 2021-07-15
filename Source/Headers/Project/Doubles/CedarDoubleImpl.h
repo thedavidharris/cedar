@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
-#import "CedarDouble.h"
-#import "StubbedMethod.h"
-#import "RejectedMethod.h"
+#import <Cedar/CedarDouble.h>
+#import <Cedar/StubbedMethod.h>
+#import <Cedar/RejectedMethod.h>
 
 typedef enum {
     CDRStubMethodNotStubbed = 0,

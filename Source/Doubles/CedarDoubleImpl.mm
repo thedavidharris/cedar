@@ -1,5 +1,5 @@
-#import "CedarDoubleImpl.h"
-#import "CDRHooks.h"
+#import <Cedar/CedarDoubleImpl.h>
+#import <Cedar/CDRHooks.h>
 
 using namespace Cedar::Doubles;
 

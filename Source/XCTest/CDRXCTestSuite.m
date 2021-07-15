@@ -1,7 +1,7 @@
-#import "CDRXCTestSuite.h"
-#import "CDRSpecRun.h"
-#import "CDRSpec.h"
-#import "CDRXCTestSupport.h"
+#import <Cedar/CDRXCTestSuite.h>
+#import <Cedar/CDRSpecRun.h>
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRXCTestSupport.h>
 #import <objc/runtime.h>
 
 const char *CDRSpecRunKey;

@@ -4,8 +4,8 @@
 
 #import <iostream>
 
-#import "StringifiersBase.h"
-#import "CDRSpecFailure.h"
+#import <Cedar/StringifiersBase.h>
+#import <Cedar/CDRSpecFailure.h>
 
 namespace Cedar { namespace Matchers {
 

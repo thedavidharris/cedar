@@ -1,12 +1,12 @@
 #import <objc/runtime.h>
 
-#import "CDRSpec.h"
-#import "CDRExample.h"
-#import "CDRRunState.h"
-#import "CDRSpecHelper.h"
-#import "CDRSpecFailure.h"
-#import "CDRExampleGroup.h"
-#import "CDRSymbolicator.h"
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRRunState.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRSpecFailure.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRSymbolicator.h>
 
 #define with_stack_address(b) \
 ((b.stackAddress = CDRCallerStackAddress()), b)

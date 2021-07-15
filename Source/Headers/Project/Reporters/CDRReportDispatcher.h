@@ -1,4 +1,4 @@
-#import "CDRExampleReporter.h"
+#import <Cedar/CDRExampleReporter.h>
 
 @class CDRExampleGroup, CDRExample, CDRSpec;
 

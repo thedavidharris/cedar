@@ -1,7 +1,7 @@
-#import "CDRSpec.h"
-#import "CDRSpecRun.h"
-#import "CDRPrivateFunctions.h"
-#import "CDRReportDispatcher.h"
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRSpecRun.h>
+#import <Cedar/CDRPrivateFunctions.h>
+#import <Cedar/CDRReportDispatcher.h>
 
 @interface CDRSpecRun ()
 @property (nonatomic, retain) id<CDRStateTracking> stateTracker;

@@ -1,4 +1,4 @@
-#import "NSInvocation+CDRXExample.h"
+#import <Cedar/NSInvocation+CDRXExample.h>
 #import <objc/runtime.h>
 
 const char *CDRXDispatcherKey;

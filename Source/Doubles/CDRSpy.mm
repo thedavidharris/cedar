@@ -1,9 +1,9 @@
-#import "NSInvocation+Cedar.h"
-#import "CDRSpy.h"
+#import <Cedar/NSInvocation+Cedar.h>
+#import <Cedar/CDRSpy.h>
 #import <objc/runtime.h>
-#import "StubbedMethod.h"
-#import "CedarDoubleImpl.h"
-#import "CDRSpyInfo.h"
+#import <Cedar/StubbedMethod.h>
+#import <Cedar/CedarDoubleImpl.h>
+#import <Cedar/CDRSpyInfo.h>
 
 @interface NSInvocation (UndocumentedPrivate)
 - (void)invokeUsingIMP:(IMP)imp;

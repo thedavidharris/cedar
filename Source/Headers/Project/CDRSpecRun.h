@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "CDRStateTracking.h"
+#import <Cedar/CDRStateTracking.h>
 
 @class CDRReportDispatcher;
 

@@ -1,4 +1,4 @@
-#import "AnyInstanceOfClassArgument.h"
+#import <Cedar/AnyInstanceOfClassArgument.h>
 
 namespace Cedar { namespace Doubles {
     AnyInstanceOfClassArgument::AnyInstanceOfClassArgument(const Class klass) : AnyInstanceArgument(), class_(klass) {}

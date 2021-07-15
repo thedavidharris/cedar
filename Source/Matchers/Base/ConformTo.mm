@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "ConformTo.h"
+#import <Cedar/ConformTo.h>
 
 namespace Cedar { namespace Matchers { namespace Private {
 

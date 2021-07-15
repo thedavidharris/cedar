@@ -1,11 +1,11 @@
-#import "StringifiersBase.h"
-#import "StringifiersContainer.h"
+#import <Cedar/StringifiersBase.h>
+#import <Cedar/StringifiersContainer.h>
 
 #if TARGET_OS_MAC
     #if TARGET_OS_IPHONE
-        #import "UIGeometryStringifiers.h"
+        #import <Cedar/UIGeometryStringifiers.h>
     #else
-        #import "OSXGeometryStringifiers.h"
+        #import <Cedar/OSXGeometryStringifiers.h>
     #endif
 #endif
 

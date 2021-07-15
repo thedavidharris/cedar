@@ -1,6 +1,6 @@
-#import "CDRXCTestCase.h"
-#import "CDRExample.h"
-#import "NSInvocation+CDRXExample.h"
+#import <Cedar/CDRXCTestCase.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/NSInvocation+CDRXExample.h>
 #import <objc/runtime.h>
 
 

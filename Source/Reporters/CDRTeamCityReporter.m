@@ -1,8 +1,8 @@
 //For information on TeamCity messages see: http://confluence.jetbrains.net/display/TCD65/Build+Script+Interaction+with+TeamCity
 
-#import "CDRTeamCityReporter.h"
-#import "CDRExample.h"
-#import "CDRExampleGroup.h"
+#import <Cedar/CDRTeamCityReporter.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRExampleGroup.h>
 
 @implementation CDRTeamCityReporter
 

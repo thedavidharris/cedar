@@ -1,5 +1,5 @@
-#import "ComparatorsBase.h"
-#import "OSXGeometryStringifiers.h"
+#import <Cedar/ComparatorsBase.h>
+#import <Cedar/OSXGeometryStringifiers.h>
 
 #ifdef __cplusplus
 

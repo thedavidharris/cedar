@@ -1,6 +1,6 @@
-#import "CDRExampleBase.h"
-#import "CDRSpecHelper.h"
-#import "CDRReportDispatcher.h"
+#import <Cedar/CDRExampleBase.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRReportDispatcher.h>
 
 @implementation CDRExampleBase
 

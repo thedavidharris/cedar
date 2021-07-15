@@ -1,4 +1,4 @@
-#import "RaiseException.h"
+#import <Cedar/RaiseException.h>
 
 namespace Cedar { namespace Matchers { namespace Private {
 

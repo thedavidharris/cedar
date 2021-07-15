@@ -1,5 +1,5 @@
-#import "CedarApplicationDelegate.h"
-#import "CDRFunctions.h"
+#import <Cedar/CedarApplicationDelegate.h>
+#import <Cedar/CDRFunctions.h>
 
 @implementation CedarApplication
 

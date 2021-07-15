@@ -1,4 +1,4 @@
-#import "AnyInstanceConformingToProtocolArgument.h"
+#import <Cedar/AnyInstanceConformingToProtocolArgument.h>
 
 namespace Cedar { namespace Doubles {
     AnyInstanceConformingToProtocolArgument::AnyInstanceConformingToProtocolArgument(Protocol *protocol) : AnyInstanceArgument(), protocol_(protocol) {}

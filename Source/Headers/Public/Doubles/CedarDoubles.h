@@ -1,20 +1,20 @@
 #pragma mark - Doubles
 
-#import "CDRSpy.h"
-#import "CDRFake.h"
-#import "CDRClassFake.h"
-#import "CDRProtocolFake.h"
+#import <Cedar/CDRSpy.h>
+#import <Cedar/CDRFake.h>
+#import <Cedar/CDRClassFake.h>
+#import <Cedar/CDRProtocolFake.h>
 
 
 #pragma mark - Matchers for Doubles
 
-#import "Argument.h"
-#import "ReturnValue.h"
-#import "AnyArgument.h"
-#import "HaveReceived.h"
-#import "ValueArgument.h"
-#import "StubbedMethod.h"
-#import "RejectedMethod.h"
-#import "AnyInstanceArgument.h"
-#import "AnyInstanceOfClassArgument.h"
-#import "AnyInstanceConformingToProtocolArgument.h"
+#import <Cedar/Argument.h>
+#import <Cedar/ReturnValue.h>
+#import <Cedar/AnyArgument.h>
+#import <Cedar/HaveReceived.h>
+#import <Cedar/ValueArgument.h>
+#import <Cedar/StubbedMethod.h>
+#import <Cedar/RejectedMethod.h>
+#import <Cedar/AnyInstanceArgument.h>
+#import <Cedar/AnyInstanceOfClassArgument.h>
+#import <Cedar/AnyInstanceConformingToProtocolArgument.h>

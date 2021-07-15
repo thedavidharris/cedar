@@ -1,4 +1,4 @@
-#import "StringifiersBase.h"
+#import <Cedar/StringifiersBase.h>
 
 #ifdef __cplusplus
 

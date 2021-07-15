@@ -1,8 +1,8 @@
-#import "CDRSharedExampleGroupPool.h"
-#import "CDRSpecHelper.h"
-#import "CDRSpec.h"
-#import "CDRExampleGroup.h"
-#import "CDRSpecFailure.h"
+#import <Cedar/CDRSharedExampleGroupPool.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRSpecFailure.h>
 
 extern CDRSpec *CDR_currentSpec;
 

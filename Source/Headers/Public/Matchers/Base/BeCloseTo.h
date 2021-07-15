@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
-#import "Base.h"
-#import "CedarComparators.h"
-#import "CDRSpecFailure.h"
+#import <Cedar/Base.h>
+#import <Cedar/CedarComparators.h>
+#import <Cedar/CDRSpecFailure.h>
 
 #ifdef __cplusplus
 

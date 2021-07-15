@@ -1,7 +1,7 @@
-#import "CDRSpyInfo.h"
-#import "CDRSpy.h"
-#import "CDRHooks.h"
-#import "CedarDoubleImpl.h"
+#import <Cedar/CDRSpyInfo.h>
+#import <Cedar/CDRSpy.h>
+#import <Cedar/CDRHooks.h>
+#import <Cedar/CedarDoubleImpl.h>
 #import <objc/runtime.h>
 
 static NSHashTable *currentSpies__;

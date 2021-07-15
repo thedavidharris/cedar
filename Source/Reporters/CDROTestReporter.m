@@ -1,10 +1,10 @@
-#import "CDROTestReporter.h"
-#import "CDRPrivateFunctions.h"
-#import "CDRExample.h"
-#import "CDRExampleGroup.h"
-#import "CDRSpecHelper.h"
-#import "CDRSpec.h"
-#import "CDROTestNamer.h"
+#import <Cedar/CDROTestReporter.h>
+#import <Cedar/CDRPrivateFunctions.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDROTestNamer.h>
 
 @interface CDROTestReporter ()
 @property (retain, nonatomic) NSString *cedarVersionString;

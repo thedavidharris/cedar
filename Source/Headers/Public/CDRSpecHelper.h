@@ -1,8 +1,8 @@
-#import "CDRSpec.h"
-#import "CDRNullabilityCompat.h"
-#import "CDRHooks.h"
-#import "CDRSharedExampleGroupPool.h"
-#import "CDRExampleParent.h"
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDRNullabilityCompat.h>
+#import <Cedar/CDRHooks.h>
+#import <Cedar/CDRSharedExampleGroupPool.h>
+#import <Cedar/CDRExampleParent.h>
 
 #ifndef NS_SWIFT_NAME
 #define NS_SWIFT_NAME(_name)
@@ -31,4 +31,4 @@ NS_ASSUME_NONNULL_END
 
 // This import is here for backwards-compatibility.
 // The Cedar spec template used to only import CDRSpecHelper.h
-#import "Cedar.h"
+#import <Cedar/Cedar.h>

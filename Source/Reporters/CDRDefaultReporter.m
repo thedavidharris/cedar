@@ -1,9 +1,9 @@
-#import "CDRDefaultReporter.h"
-#import "CDRExample.h"
-#import "CDRExampleGroup.h"
-#import "CDRSymbolicator.h"
-#import "CDRSpecHelper.h"
-#import "CDRSlowTestStatistics.h"
+#import <Cedar/CDRDefaultReporter.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRSymbolicator.h>
+#import <Cedar/CDRSpecHelper.h>
+#import <Cedar/CDRSlowTestStatistics.h>
 
 @interface CDRDefaultReporter (private)
 - (void)printMessages:(NSArray *)messages;

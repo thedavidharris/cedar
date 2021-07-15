@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "CDRNullabilityCompat.h"
-#import "CDRExampleParent.h"
+#import <Cedar/CDRNullabilityCompat.h>
+#import <Cedar/CDRExampleParent.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

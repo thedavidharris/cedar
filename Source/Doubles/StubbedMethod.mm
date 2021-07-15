@@ -1,8 +1,8 @@
-#import "StubbedMethod.h"
-#import "AnyArgument.h"
-#import "CDRTypeUtilities.h"
-#import "NSInvocation+Cedar.h"
-#import "NSMethodSignature+Cedar.h"
+#import <Cedar/StubbedMethod.h>
+#import <Cedar/AnyArgument.h>
+#import <Cedar/CDRTypeUtilities.h>
+#import <Cedar/NSInvocation+Cedar.h>
+#import <Cedar/NSMethodSignature+Cedar.h>
 #import <objc/runtime.h>
 #import <numeric>
 

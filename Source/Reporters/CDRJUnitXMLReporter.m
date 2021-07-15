@@ -1,7 +1,7 @@
-#import "CDRJUnitXMLReporter.h"
-#import "CDRExample.h"
-#import "CDRSpec.h"
-#import "CDROTestNamer.h"
+#import <Cedar/CDRJUnitXMLReporter.h>
+#import <Cedar/CDRExample.h>
+#import <Cedar/CDRSpec.h>
+#import <Cedar/CDROTestNamer.h>
 
 
 @interface CDRJUnitXMLReporter ()

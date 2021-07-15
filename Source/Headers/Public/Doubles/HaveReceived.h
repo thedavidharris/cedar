@@ -1,6 +1,6 @@
-#import "Base.h"
-#import "InvocationMatcher.h"
-#import "CedarDouble.h"
+#import <Cedar/Base.h>
+#import <Cedar/InvocationMatcher.h>
+#import <Cedar/CedarDouble.h>
 
 #ifdef __cplusplus
 

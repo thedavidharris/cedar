@@ -1,8 +1,8 @@
 #import <UIKit/UIGeometry.h>
 #import <UIKit/UIKit.h>
 
-#import "ComparatorsBase.h"
-#import "UIGeometryStringifiers.h"
+#import <Cedar/ComparatorsBase.h>
+#import <Cedar/UIGeometryStringifiers.h>
 
 #ifdef __cplusplus
 

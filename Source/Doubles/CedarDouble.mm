@@ -1,7 +1,7 @@
-#import "CedarDouble.h"
-#import "CDRSpy.h"
-#import "StubbedMethod.h"
-#import "RejectedMethod.h"
+#import <Cedar/CedarDouble.h>
+#import <Cedar/CDRSpy.h>
+#import <Cedar/StubbedMethod.h>
+#import <Cedar/RejectedMethod.h>
 #import <objc/runtime.h>
 
 namespace Cedar { namespace Doubles {

@@ -1,8 +1,8 @@
-#import "NSInvocation+Cedar.h"
-#import "CDRFake.h"
+#import <Cedar/NSInvocation+Cedar.h>
+#import <Cedar/CDRFake.h>
 #import <objc/runtime.h>
-#import "StubbedMethod.h"
-#import "CedarDoubleImpl.h"
+#import <Cedar/StubbedMethod.h>
+#import <Cedar/CedarDoubleImpl.h>
 
 @interface CDRFake ()
 

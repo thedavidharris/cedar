@@ -1,6 +1,6 @@
-#import "CDRSlowTestStatistics.h"
-#import "CDRExampleGroup.h"
-#import "CDRExample.h"
+#import <Cedar/CDRSlowTestStatistics.h>
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRExample.h>
 
 @interface CDRRunTimeTitlePair : NSObject
 

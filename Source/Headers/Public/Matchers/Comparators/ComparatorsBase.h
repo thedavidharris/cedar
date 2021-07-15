@@ -1,11 +1,11 @@
-#import "CompareEqual.h"
-#import "CompareGreaterThan.h"
-#import "CompareCloseTo.h"
+#import <Cedar/CompareEqual.h>
+#import <Cedar/CompareGreaterThan.h>
+#import <Cedar/CompareCloseTo.h>
 
 #if TARGET_OS_MAC
     #if TARGET_OS_IPHONE
-        #import "UIGeometryCompareEqual.h"
+        #import <Cedar/UIGeometryCompareEqual.h>
     #else
-        #import "OSXGeometryCompareEqual.h"
+        #import <Cedar/OSXGeometryCompareEqual.h>
     #endif
 #endif

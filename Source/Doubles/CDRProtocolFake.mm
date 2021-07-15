@@ -1,6 +1,6 @@
-#import "CDRFake.h"
-#import "CDRProtocolFake.h"
-#import "StubbedMethod.h"
+#import <Cedar/CDRFake.h>
+#import <Cedar/CDRProtocolFake.h>
+#import <Cedar/StubbedMethod.h>
 #import <objc/runtime.h>
 
 static bool protocol_hasSelector(Protocol *protocol, SEL selector, BOOL is_required_method, BOOL is_instance_method) {

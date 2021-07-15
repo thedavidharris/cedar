@@ -1,5 +1,5 @@
-#import "CDRExampleGroup.h"
-#import "CDRReportDispatcher.h"
+#import <Cedar/CDRExampleGroup.h>
+#import <Cedar/CDRReportDispatcher.h>
 
 @interface CDRExampleGroup (Private)
 - (void)startObservingExamples;
